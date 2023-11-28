@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #aaffaa, #aaddff);
+}
+
+#all {
+    text-align: center;
+}
+
+#form {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.3s;
+} 
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+.completed {
+    text-decoration: line-through;
+}
